@@ -1,1 +1,7 @@
-export declare function getReelInfo(url: string): Promise<string | undefined>;
+export declare function getReelInfo(url: string): Promise<ReelDataType | undefined>;
+
+export type ReelDataType {
+  url: string,
+  title: string,
+  cover_url: string | null,
+}

@@ -3,5 +3,5 @@ export declare function getReelInfo(url: string): Promise<ReelDataType | undefin
 export type ReelDataType {
   url: string,
   title: string,
-  cover_url: string | null,
+  cover_url: string | null | undefined,
 }
